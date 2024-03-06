@@ -1,5 +1,11 @@
 # Weather Dashboard Application
 
+![alt text](image.png)
+
+## Live Link
+
+Project hosted on render.com: [Live Link](https://weather-dashboard-app.onrender.com/)
+
 ## Overview
 
 This project aims to develop a Weather Dashboard Application enabling users to search and display current weather and forecasts for their cities. The application integrates with a weather API to fetch data and provides a user-friendly interface for presentation.

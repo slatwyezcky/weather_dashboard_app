@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard App</title>
+  </head>
+  <body>
+    <div class="top_content">
+      <div class="top_content__city loader">
+        <div class="top_content__city-geotag">
+          <img src="/src/assets/images/common/geotag.svg" alt="geotag icon" class="top_content__city-geotag" />
+        </div>
+        <div class="top_content__city-text"></div>
+        <div class="top_content__city-arrow">
+          <img src="/src/assets/images/common/rightarrow.svg" alt="right arrow icon" />
+        </div>
+      </div>
+
+      <div class="top_content__user">
+        <img src="/src/assets/images/menu-icons/user.png" alt="user icon" />
+      </div>
+
+      <div class="top_content__description text-loader"></div>
+      <div class="top_content__weather-icon loader">
+        <img src="/src/assets/images/weather-icons/few_clouds.svg" alt="weather icon" />
+      </div>
+      <div class="top_content__temp text-loader"></div>
+      <div class="top_content__date text-loader"></div>
+    </div>
+
+    <div class="bottom_content">
+      <div class="bottom_content__menu">
+        <div class="bottom_content__user">
+          <img src="/src/assets/images/menu-icons/user.png" alt="user icon" />
+        </div>
+        <div class="bottom_content__menu-items">
+          <div class="bottom_content__menu-item menu_weather">
+            <img src="/src/assets/images/weather-icons/rainy_sunny.svg" alt="menu icon" class="icon" />
+            <div class="bottom_content__menu-text">weather</div>
+          </div>
+          <div class="bottom_content__menu-item menu_explore">
+            <img src="/src/assets/images/menu-icons/explore.svg" alt="menu icon" class="icon" />
+            <div class="bottom_content__menu-text">explore</div>
+          </div>
+          <div class="bottom_content__menu-item menu_cities">
+            <img src="/src/assets/images/common/geotag.svg" alt="menu icon" class="icon" />
+            <div class="bottom_content__menu-text">cities</div>
+          </div>
+          <div class="bottom_content__menu-item menu_settings">
+            <img src="/src/assets/images/menu-icons/settings.svg" alt="menu icon" class="icon" />
+            <div class="bottom_content__menu-text">settings</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom_content__middle-section">
+        <div class="bottom_content__activities loader">
+          <div class="bottom_content__activities-header">
+            <img src="/src/assets/images/common/heart.svg" alt="heart icon" class="icon" />
+            Activities in your area
+          </div>
+          <div class="bottom_content__activities-info">
+            <div class="bottom_content__activity">
+              <img src="https://source.unsplash.com/random/400×300/?seaside" alt="activity placeholder" />
+              1.5km away
+            </div>
+            <div class="bottom_content__activity">
+              <img src="https://source.unsplash.com/random/400×300/?park" alt="activity placeholder" />
+              500m away
+            </div>
+            <div class="bottom_content__activity">
+              <img src="https://source.unsplash.com/random/400×300/?museum" alt="activity placeholder" />
+              2.5km away
+            </div>
+            <div class="bottom_content__activity">
+              <img src="https://source.unsplash.com/random/400×300/?sightseen" alt="activity placeholder" />
+              750m away
+            </div>
+          </div>
+        </div>
+        <div class="bottom_content__forecast loader">
+          <div class="bottom_content__forecast-header">
+            <img src="/src/assets/images/common/clock.svg" alt="clock icon" />
+            24-hour forecast
+          </div>
+          <svg class="bottom_content__forecast-chart">
+            <path
+              stroke="#FFC355
+"
+              stroke-width="2.05"
+              fill="transparent"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+            />
+          </svg>
+          <div class="bottom_content__forecast-data"></div>
+        </div>
+      </div>
+      <div class="bottom_content__weather-details loader">
+        <div class="bottom_content__weather-carousel">
+          <button class="bottom_content__weather-carousel_left">
+            <img src="/src/assets/images/common/rightarrow.svg" alt="left arrow icon" />
+          </button>
+          <div class="bottom_content__weather-carousel_data">
+            <div class="bottom_content__weather-carousel_data-container"></div>
+          </div>
+          <button class="bottom_content__weather-carousel_right">
+            <img src="/src/assets/images/common/rightarrow.svg" alt="right arrow icon" />
+          </button>
+        </div>
+        <div class="bottom_content__weather-time">
+          <img src="/src/assets/images/common/clock.svg" alt="clock icon" />
+          <p></p>
+        </div>
+        <div class="bottom_content__weather-header">AIR CONDITIONS</div>
+        <div class="bottom_content__weather-container">
+          <div class="bottom_content__weather-info">
+            <div class="bottom_content__weather-class">
+              <img src="/src/assets/images/common/grad.svg" alt="grad icon" />
+              Real Feel
+            </div>
+            <div class="bottom_content__weather-value bottom_content__weather-real-feel"></div>
+          </div>
+          <div class="bottom_content__weather-info">
+            <div class="bottom_content__weather-class">
+              <img src="/src/assets/images/weather-icons/wind.svg" alt="wind icon" />
+              Wind
+            </div>
+            <div class="bottom_content__weather-value bottom_content__weather-wind-speed"></div>
+          </div>
+          <div class="bottom_content__weather-info">
+            <div class="bottom_content__weather-class">
+              <img src="/src/assets/images/common/drop.svg" alt="drop icon" />
+              Chance of rain
+            </div>
+            <div class="bottom_content__weather-value bottom_content__weather-rain-possibility"></div>
+          </div>
+          <div class="bottom_content__weather-info">
+            <div class="bottom_content__weather-class">
+              <img src="/src/assets/images/weather-icons/sunny.svg" alt="sun icon" />
+              UV Index
+            </div>
+            <div class="bottom_content__weather-value bottom_content__weather-uv-index"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="input_modal">
+      <div class="input_modal__content">
+        <div class="input_modal__content-container">
+          <input type="text" class="input_modal__content-input" placeholder="Enter city name" />
+          <button>
+            <img src="/src/assets/images/common/enter.svg" alt="enter icon" />
+          </button>
+        </div>
+        <div class="input_modal__content-lists">
+          <div class="input_modal__content-favorite-header">Favorite cities</div>
+          <ul class="input_modal__content-favorite-content"></ul>
+          <div class="input_modal__content-recent-header">Recent cities</div>
+          <ul class="input_modal__content-recent-content"></ul>
+        </div>
+        <button class="input_modal__close">
+          <img src="/src/assets/images/common/close.svg" alt="close icon" />
+        </button>
+      </div>
+    </div>
+    <div class="error_modal"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

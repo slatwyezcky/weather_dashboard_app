@@ -10,7 +10,7 @@ export async function getCoordinatesByCityName(city) {
   try {
     if (!city) throw new Error('You should provide city for search');
     const coordinates = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${city.toLowerCase()}&appid=${API_KEY}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${city.toLowerCase()}&appid=${API_KEY}`
     );
     const data = await coordinates.json();
     if (Array.isArray(data) && !data.length) throw new Error('The city name is incorrect');

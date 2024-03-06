@@ -346,7 +346,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #deab4d;
-  background-image: url('/src/assets/images/common/bg.svg');
+  background-image: url('/assets/images/common/bg.svg');
   background-repeat: no-repeat;
   background-position: 0 290px;
   border-radius: 40px;

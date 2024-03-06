@@ -1,13 +1,13 @@
 export const ICONS = {
-  '01': '/src/assets/images/weather-icons/sunny.svg',
-  '02': '/src/assets/images/weather-icons/few_clouds.svg',
-  '03': '/src/assets/images/weather-icons/few_clouds.svg',
-  '04': '/src/assets/images/weather-icons/few_clouds.svg',
-  '09': '/src/assets/images/weather-icons/rainy.svg',
-  10: '/src/assets/images/weather-icons/rainy_sunny.svg',
-  11: '/src/assets/images/weather-icons/thunder.svg',
-  13: '/src/assets/images/weather-icons/snow.svg',
-  50: '/src/assets/images/weather-icons/mist.svg',
+  '01': '/assets/images/weather-icons/sunny.svg',
+  '02': '/assets/images/weather-icons/few_clouds.svg',
+  '03': '/assets/images/weather-icons/few_clouds.svg',
+  '04': '/assets/images/weather-icons/few_clouds.svg',
+  '09': '/assets/images/weather-icons/rainy.svg',
+  10: '/assets/images/weather-icons/rainy_sunny.svg',
+  11: '/assets/images/weather-icons/thunder.svg',
+  13: '/assets/images/weather-icons/snow.svg',
+  50: '/assets/images/weather-icons/mist.svg',
 };
 
 export const DAYS = {

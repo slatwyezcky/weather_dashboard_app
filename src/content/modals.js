@@ -84,7 +84,7 @@ export function generateHistoryList(arr) {
         `<li>
 			<div onclick="getData('${city}')">${city} </div>
 				<button onclick="addToFavorites('${city}')" >
-					<img src="/src/assets/images/common/star.svg" alt='favorite icon' />	
+					<img src="/assets/images/common/star.svg" alt='favorite icon' />	
 				</button>
 			</li>`
     )
@@ -102,7 +102,7 @@ export function generateFavoriteList(arr) {
         `<li>
 			<div onclick="getData('${city}')">${city}</div> 
 			<button onclick="removeFromFavorites('${city}')" >
-				<img src="/src/assets/images/common/delete.svg" alt='favorite icon' />	
+				<img src="/assets/images/common/delete.svg" alt='favorite icon' />	
 			</button>
 		</li>`
     )

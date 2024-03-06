@@ -31,11 +31,6 @@ This project aims to develop a Weather Dashboard Application enabling users to s
   - Instructions for setting up and running the application locally.
   - Brief guide on application usage.
 
-### Bonus (Optional)
-
-- Add functionality to save and display a list of favorite cities for swift access.
-- Implement unit tests for JavaScript code.
-
 ## Deliverables
 
 - Complete source code for the Weather Dashboard Application, encompassing all assets.
